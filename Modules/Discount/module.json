@@ -1,0 +1,13 @@
+{
+    "name": "Discount",
+    "alias": "کد تخفیف",
+    "description": "ماژول اعمال کد تخفیف در سبد خرید",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Discount\\Providers\\DiscountServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
