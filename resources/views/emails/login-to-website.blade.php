@@ -1,8 +1,8 @@
 @component('mail::message')
 شما با آی پی فلان وارد وبسایت شدید
 @component('mail::button', ['url' => url('/')])
-        وبسایت راکت
+        وبسایت پارناس
 @endcomponent
 
-<p>وبسایت آموزشی راکت</p>
+<p>وبسایت فروشگاهی پارناس</p>
 @endcomponent

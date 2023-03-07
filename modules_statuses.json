@@ -1,6 +1,6 @@
 {
     "Product": true,
-    "Discount": false,
-    "Cart": false,
+    "Discount": true,
+    "Cart": true,
     "Main": true
 }

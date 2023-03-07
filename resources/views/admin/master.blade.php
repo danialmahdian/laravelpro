@@ -3,12 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
      {!! SEO::generate() !!}
     <!-- Font Awesome -->
     <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
@@ -51,7 +48,7 @@
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer">
-        <strong>CopyLeft &copy; 2023 <a href="http://github.com/danialmahdian/">دانیال مهدیان</a>.</strong>
+        <strong>Copy &copy; 2023 <a href="http://github.com/danialmahdian/">Danial Mahdian</a></strong>
     </footer>
 
     <!-- Control Sidebar -->

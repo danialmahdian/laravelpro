@@ -1,7 +1,7 @@
 @extends('profile.layouts')
 
 @section('main')
-    <h4>Two Factor Auth : </h4>
+    <h4>احراز هویت دومرحله ای </h4>
     <hr>
 
 
@@ -18,7 +18,7 @@
         @csrf
 
         <div class="form-group">
-            <label for="type">Type</label>
+            <label for="type">نوع</label>
             <select name="type" id="" class="form-control">
                 @foreach(config('twofactor.types') as $key => $name)
                     ]
@@ -28,14 +28,14 @@
         </div>
 
         <div class="form-group">
-            <label for="phone">Phone</label>
-            <input type="text" name="phone" id="phone" class="form-control" placeholder="please add your phone number"
+            <label for="phone">موبایل</label>
+            <input type="text" name="phone" id="phone" class="form-control" placeholder="شماره موبایل خود را وارد نمایید"
                    value="{{ old('phone') ?? auth()->user()->phone_number }}">
         </div>
 
         <div class="form-group">
             <button class="btn btn-primary mt-3">
-                update
+                بروزرسانی
             </button>
         </div>
     </form>

@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Parnas'),
 
     /*
     |--------------------------------------------------------------------------
@@ -196,6 +196,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         RealRashid\SweetAlert\SweetAlertServiceProvider::class,
         Shetabit\Payment\Provider\PaymentServiceProvider::class,
+        Laravel\Scout\ScoutServiceProvider::class,
     ],
 
     /*
