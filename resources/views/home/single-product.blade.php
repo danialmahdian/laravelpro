@@ -85,7 +85,7 @@
                 <div class="card">
                     <div class="card-header d-flex justify-content-between">
                         {{ $product->title }}
-                        @if (\App\Helpers\Cart\Cart::count($product) < $product->inventory)
+                        @if (Cart::count($product) < $product->inventory)
                             <form action="{{ route('cart.add', $product->id) }}" method="POST" id="add-to-cart">
                                 @csrf
                             </form>
